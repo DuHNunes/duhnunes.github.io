@@ -1,0 +1,119 @@
+html, body{
+    height:100vh;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Scrollbar */
+/* width */
+::-webkit-scrollbar{
+    width: 10px;
+}
+  /* Track */
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+  /* Handle */
+::-webkit-scrollbar-thumb{
+    background: #1976D2;
+    border-radius: 10px;
+}
+/* Scrollbar */
+/* Loader */
+
+/* Loader */
+.wrapper {
+    height:100%;
+    background-color:rgb(33,33,33);
+}
+.nav-bg-dark {
+    background-color:rgb(26,26,26);
+}
+.nav-bg-border {
+    border:0;
+    border-bottom:1px ridge #1976d2!important;
+}
+.nav-bg-link.active {
+    background-color:#000!important;
+    border-bottom:0!important;
+    border-top:0!important;
+    border-right:1px ridge #1976D2!important;
+    border-left:1px ridge #1976D2!important;
+}
+.nav-bg-link:hover {
+    background-color:#000!important;
+    border-top:0!important;
+    border-bottom:1px ridge #1976D2!important;
+    border-right:1px ridge #1976D2!important;
+    border-left:1px ridge #1976d2!important;
+}
+.border-blue-left {
+    border-left:1px solid #1976D2;
+}
+.border-blue-right{
+    border-right:1px solid #1976D2;
+}
+.social-light {
+    color:#fff;
+}
+.social-light:hover {
+    color:rgba(255,255,255,.7);
+}
+/* Body-Card-Content */
+.card-bg-dark{
+    background-color:rgb(26,26,26)!important;
+    height:91vh;
+    border-radius:.5rem!important;
+}
+.card-img-size-box{
+    min-width:20rem!important;
+}
+.card-img-size{
+    height:24rem;
+    object-fit:fill;
+}
+.card-link {
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+}
+.card-link:hover {
+    box-shadow:-0.2rem 0.255rem 0.5rem 0 #1976d2;
+    -webkit-transform: translate(.2rem,.1rem);
+    -moz-transform: translate(.2rem,.1rem);
+    -o-transform: translate(.2rem,.1rem);
+    -ms-transform: translate(.2rem,.1rem);
+    transform:translate(.2rem, .1rem);
+}
+.card-link h5{
+    color:rgba(255,255,255,.55);
+    transition: .3s ease-in-out;
+}
+/* pages content */
+.img_apresentation{
+    position:relative;
+    top:100px;
+}
+.column2_box_shadow{
+    box-shadow: 0 0 2.5rem 1rem rgba(0 0 0 /30%);
+    border-radius:.5rem;
+}
+.column2_divider_shadow{
+    box-shadow: 0 .5rem 0 -.2rem rgba(0 0 0 /30%);
+}
+.column2_box_size{
+    height:100%;
+}
+
+/* imagine_earth_alternated.html */
+
+.custom-breadcrumb{
+    margin:.5rem;
+}
+.custom-breadcrumb a{
+    color:#969696;
+    text-decoration:none;
+}
+.custom-breadcrumb a:hover{
+    color:#1976D2;
+}
