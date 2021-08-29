@@ -1,6 +1,6 @@
 html, body{
     height:100vh;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif!important;
 }
 /* Scrollbar */
 /* width */
