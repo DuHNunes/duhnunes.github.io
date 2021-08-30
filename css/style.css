@@ -1,5 +1,6 @@
 html, body{
     font-family:Verdana, Geneva, Tahoma, sans-serif!important;
+    color:#fff;
 }
 /* Scrollbar */
 /* width */
@@ -9,12 +10,12 @@ html, body{
   /* Track */
 ::-webkit-scrollbar-track{
     box-shadow: inset 0 0 5px grey;
-    border-radius: 5px;
+    border-radius: 3px;
 }
   /* Handle */
 ::-webkit-scrollbar-thumb{
     background: #1976D2;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 /* Scrollbar */
 /* Loader */
@@ -66,7 +67,7 @@ html, body{
 /* Body-Card-Content */
 .card-bg-dark{
     background-color:rgb(26,26,26)!important;
-    height:91vh;
+    min-height:91vh;
     border-radius:.5rem!important;
 }
 .card-img-size{
@@ -94,6 +95,13 @@ html, body{
 .card-link h5{
     color:rgba(255,255,255,.55);
     transition: .3s ease-in-out;
+}
+.card-mini-img-size{
+    height:11rem;
+    max-width:10rem;
+}
+.card-mini-img-size img{
+    object-fit:cover;
 }
 /* pages content */
 .img_apresentation{
@@ -127,3 +135,5 @@ html, body{
     overflow-y:scroll;
     max-height:35rem;
 }
+
+/* mods/skyrim/index.html */
