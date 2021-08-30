@@ -1,5 +1,4 @@
 html, body{
-    height:100vh;
     font-family:Verdana, Geneva, Tahoma, sans-serif!important;
 }
 /* Scrollbar */
@@ -22,7 +21,13 @@ html, body{
 
 /* Loader */
 .wrapper {
-    height:100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow:auto;
+    overflow-x:hidden;
     background-color:rgb(33,33,33);
 }
 .nav-bg-dark {
@@ -64,12 +69,13 @@ html, body{
     height:91vh;
     border-radius:.5rem!important;
 }
-.card-img-size-box{
-    min-width:20rem!important;
-}
 .card-img-size{
     height:24rem;
-    object-fit:fill;
+    width:21rem;
+}
+.card-img-size img{
+    height:100%;
+    width:100%;
 }
 .card-link {
     -webkit-transition: .25s ease-in-out;
