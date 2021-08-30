@@ -5,17 +5,17 @@ html, body{
 /* Scrollbar */
 /* width */
 ::-webkit-scrollbar{
-    width: 10px;
+    width: 5px;
 }
   /* Track */
 ::-webkit-scrollbar-track{
     box-shadow: inset 0 0 5px grey;
-    border-radius: 10px;
+    border-radius: 5px;
 }
   /* Handle */
 ::-webkit-scrollbar-thumb{
     background: #1976D2;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 /* Scrollbar */
 /* Loader */
@@ -116,4 +116,8 @@ html, body{
 }
 .custom-breadcrumb a:hover{
     color:#1976D2;
+}
+.scroll-description{
+    overflow-y:scroll;
+    max-height:35rem;
 }
