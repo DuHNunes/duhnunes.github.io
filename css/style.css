@@ -5,7 +5,7 @@ html, body{
 /* Scrollbar */
 /* width */
 ::-webkit-scrollbar{
-    width: 5px;
+    width: 4px;
 }
   /* Track */
 ::-webkit-scrollbar-track{
@@ -40,17 +40,18 @@ html, body{
 }
 .nav-bg-link.active {
     background-color:#000!important;
-    border-bottom:0!important;
-    border-top:0!important;
+    border-bottom:transparent!important;
+    border-top:transparent!important;
     border-right:1px ridge #1976D2!important;
     border-left:1px ridge #1976D2!important;
+    height:100%;
 }
 .nav-bg-link:hover {
     background-color:#000!important;
-    border-top:0!important;
-    border-bottom:1px ridge #1976D2!important;
+    border-bottom:1px solid #1976D2!important;
     border-right:1px ridge #1976D2!important;
     border-left:1px ridge #1976d2!important;
+    border-top:1px solid transparent!important;
 }
 .border-blue-left {
     border-left:1px solid #1976D2;
@@ -72,7 +73,7 @@ html, body{
 }
 .card-img-size{
     height:24rem;
-    width:21rem;
+    max-width:21rem;
 }
 .card-img-size img{
     height:100%;
@@ -97,17 +98,15 @@ html, body{
     transition: .3s ease-in-out;
 }
 .card-mini-img-size{
-    height:11rem;
-    max-width:10rem;
+    height:12rem;
+    max-width:10.8rem;
 }
 .card-mini-img-size img{
-    object-fit:cover;
+    height:100%;
+    width:100%;
+    object-fit:fill;
 }
 /* pages content */
-.img_apresentation{
-    position:relative;
-    top:100px;
-}
 .column2_box_shadow{
     box-shadow: 0 0 2.5rem 1rem rgba(0 0 0 /30%);
     border-radius:.5rem;
