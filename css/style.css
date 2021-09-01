@@ -52,6 +52,7 @@ html, body{
     border-right:1px ridge #1976D2!important;
     border-left:1px ridge #1976d2!important;
     border-top:1px solid transparent!important;
+    height:100%;
 }
 .border-blue-left {
     border-left:1px solid #1976D2;
