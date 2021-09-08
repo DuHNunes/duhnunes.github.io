@@ -35,24 +35,23 @@ html, body{
     background-color:rgb(26,26,26);
 }
 .nav-bg-border {
-    border:0;
+    border:transparent;
     border-bottom:1px ridge #1976d2!important;
 }
 .nav-bg-link.active {
     background-color:#000!important;
-    border-bottom:transparent!important;
-    border-top:transparent!important;
-    border-right:1px ridge #1976D2!important;
-    border-left:1px ridge #1976D2!important;
+    border:transparent!important;
     height:100%;
 }
 .nav-bg-link:hover {
     background-color:#000!important;
     border-bottom:1px solid #1976D2!important;
-    border-right:1px ridge #1976D2!important;
-    border-left:1px ridge #1976d2!important;
+    border-right:1px ridge transparent!important;
+    border-left:1px ridge transparent!important;
     border-top:1px solid transparent!important;
-    height:100%;
+}
+.nav-bg-link.active:hover{
+    border-bottom:transparent!important;
 }
 .border-blue-left {
     border-left:1px solid #1976D2;
