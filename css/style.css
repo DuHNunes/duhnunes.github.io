@@ -65,6 +65,9 @@ html, body{
 .social-light:hover {
     color:rgba(255,255,255,.7);
 }
+.mt-6 {
+    margin-top:2.3rem!important;
+}
 /* Body-Card-Content */
 .card-bg-dark{
     background-color:rgb(26,26,26)!important;
@@ -135,4 +138,15 @@ html, body{
     max-height:35rem;
 }
 
-/* mods/skyrim/index.html */
+/* mods/skyrim/vocabulary/index.html */
+.voc-box-content h5 {
+    font-size:1.2em;
+}
+.voc-box-content p {
+    font-size:.9em;
+    padding-left:.9rem;
+}
+.voc-text-alert {
+    background-color:darkorange;
+    color:#000;
+}
