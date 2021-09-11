@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Ratway",
+        "translate": "Toca do Rato",
+        "type": "Local",
+        "type2": "Mundo",
+        "description": "• Tentando Ver se funfa"
+    },
+    {
+        "name": "Nix-Hound",
+        "translation": "Sem tradução",
+        "type": "Criatura",
+        "type2": "",
+        "description": "• E ai, funfo memo?"
+    }
+]
