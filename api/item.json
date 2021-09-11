@@ -1,38 +1,23 @@
-{
-    "words":[
-        {
-            "name": "Staff",
-            "trans": "Cajado",
-            "type": "Item",
-            "type2": "Weapon",
-            "description": "'Cajado' is Staff in portuguese"
-        },
-        {
-            "name": "Flagon",
-            "trans": "Caneca",
-            "type": "Item",
-            "type2": "null",
-            "description": "Flagon is Medieval cup to drink Beer"
-        },
-        {
-            "name": "Gloves of Dragon",
-            "trans": "Luvas do Dragão",
-            "type": "Item",
-            "type2": "Armor",
-            "description": "Gloves is Luvas in portuguese"
-        },
-        {
-            "name": "Staff",
-            "trans": "Cajado",
-            "type": "Item",
-            "type2": "null",
-            "description": "'Cajado' is Staff in portuguese"
-        }
-    ]
-}
-
-
-
-
-
-
+[
+    {
+        "name": "Staff of Vizura",
+        "translate": "Cajado da Vizura",
+        "type": "Item",
+        "type2": "",
+        "description": "item funfando?"
+    },
+    {
+        "name": "Staff of Mud",
+        "translation": "Cajado da Lama",
+        "type": "Item",
+        "type2": "",
+        "description": "Test 2"
+    },
+    {
+        "name": "Gloves of Dragon",
+        "translate": "Luvas do Dragão",
+        "type": "Item",
+        "type2": "",
+        "description": "Test 3"
+    }
+]
