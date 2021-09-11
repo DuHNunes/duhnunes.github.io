@@ -1,6 +1,8 @@
 [
     {
         "name": "Ratway",
+        "space": "%x20",
+        "stick": "-",
         "translate": "Toca do Rato",
         "type": "Local",
         "type2": "Mundo",
@@ -19,12 +21,5 @@
         "type": "Food",
         "type2": "",
         "description": "Torta de Uva carai"
-    },
-    {
-        "name": "Test 1",
-        "translate": "Sem Tradução",
-        "type": "type 1",
-        "type2": "type 2",
-        "description": "any test"
     }
 ]
