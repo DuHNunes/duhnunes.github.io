@@ -4,13 +4,65 @@
         "trans": "Toca do Rato",
         "type": "Local",
         "type2": "",
-        "description": "test from test"
+        "description": "test from test",
+        "yearOfBirth": 1980,
+        "ancestry": "half-blood",
+        "eyeColour": "green",
+        "hairColour": "black",
+        "wand": {
+            "wood": "holly",
+            "core": "phoenix feather",
+            "length": 11
+        },
+        "patronus": "stag",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "actor": "Daniel Radcliffe",
+        "alive": true,
+        "image": "http://hp-api.herokuapp.com/images/harry.jpg"
     },
     {
-        "name": "Flagon Inn",
-        "trans": "Caneca Taberna",
+        "name": "stff",
+        "trans": "cajado",
+        "type": "Item",
+        "type2": "",
+        "description": "test from test",
+        "yearOfBirth": 1980,
+        "ancestry": "half-blood",
+        "eyeColour": "green",
+        "hairColour": "black",
+        "wand": {
+            "wood": "holly",
+            "core": "phoenix feather",
+            "length": 11
+        },
+        "patronus": "stag",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "actor": "Daniel Radcliffe",
+        "alive": true,
+        "image": "http://hp-api.herokuapp.com/images/harry.jpg"
+    },
+    {
+        "name": "flagon",
+        "trans": "caneca",
         "type": "Local",
-        "type2": "Taberna",
-        "description": "Test Taberna Flagon"
+        "type2": "taberna",
+        "description": "test from test",
+        "yearOfBirth": 1980,
+        "ancestry": "half-blood",
+        "eyeColour": "green",
+        "hairColour": "black",
+        "wand": {
+            "wood": "holly",
+            "core": "phoenix feather",
+            "length": 11
+        },
+        "patronus": "stag",
+        "hogwartsStudent": true,
+        "hogwartsStaff": false,
+        "actor": "Daniel Radcliffe",
+        "alive": true,
+        "image": "http://hp-api.herokuapp.com/images/harry.jpg"
     }
 ]
