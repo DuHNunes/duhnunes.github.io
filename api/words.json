@@ -12,5 +12,12 @@
         "type": "Criatura",
         "type2": "",
         "description": "• E ai, funfo memo?"
+    },
+    {
+        "name": "Jazbay Crostata",
+        "translate": "Torta de Uva Concord",
+        "type": "Food",
+        "type2": "",
+        "description": "Torta de Uva carai"
     }
 ]
