@@ -73,6 +73,11 @@ html, body{
     border:0!important;
     color:#fff!important;
 }
+.lupa{
+    position:absolute;
+    top:6px;
+    right:50px;
+}
 /* Body-Card-Content */
 .card-bg-dark{
     background-color:rgb(26,26,26)!important;
