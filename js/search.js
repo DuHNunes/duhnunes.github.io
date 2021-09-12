@@ -1,0 +1,72 @@
+const searchBar = document.getElementById('searchBar');
+const lists = {
+  localList: {
+    api: 'https://duhnunes.github.io/api/local.json'
+  },
+  itemList: {
+    api: 'https://duhnunes.github.io/api/item.json'
+  },
+  personaList: {
+      api: 'https://duhnunes.github.io/api/persona.json'
+  },
+  animalList: {
+      api: 'https://duhnunes.github.io/api/animal.json'
+  },
+  foodList: {
+      api: 'https://duhnunes.github.io/api/food.json'
+  },
+  diseaseList: {
+      api: 'https://duhnunes.github.io/api/disease.json'
+  },
+  uiList: {
+      api: 'https://duhnunes.github.io/api/ui.json'
+  },
+  miscList: {
+      api: 'https://duhnunes.github.io/api/misc.json'
+  }
+};
+
+Object.entries(lists).forEach(([id, list]) => {
+  list.element = document.getElementById(id);
+});
+
+searchBar.addEventListener('keyup', (e) => {
+  const searchString = e.target.value.toLowerCase();
+
+  Object.values(lists).forEach((list) => {
+    list.filteredWords = list.words.filter((word) => {
+      return word.name.toLowerCase().includes(searchString);
+    });
+  });
+
+  displayCharacters();
+});
+
+const loadCharacters = async () => {
+  try {
+    await Promise.all(
+      Object.values(lists).map(async (list) => {
+        const response = await fetch(list.api);
+        list.words = await response.json();
+      })
+    );
+
+    displayCharacters();
+  } catch (err) {
+    console.error(err);
+  }
+};
+
+const displayCharacters = () => {
+  Object.values(lists).forEach((list) => {
+    list.element.innerHTML = (list.filteredWords ?? list.words)
+      .map((word) => `
+        <div class="voc-box-content">
+          <h5>${word.name} - ${word.trans} [${word.type} - ${word.type2}]</h5>
+          <p>${word.description}</p>
+        </div>`)
+      .join('');
+  });
+};
+
+loadCharacters();
