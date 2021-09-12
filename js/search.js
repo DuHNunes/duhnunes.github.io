@@ -1,28 +1,28 @@
 const searchBar = document.getElementById('searchBar');
 const lists = {
   localList: {
-    api: 'https://duhnunes.github.io/api/local.json'
+    api: 'https://duhnunes.github.io/api/vocabulary/skyrimse/local.json'
   },
   itemList: {
-    api: 'https://duhnunes.github.io/api/item.json'
+    api: 'https://duhnunes.github.io/api/vocabulary/skyrimse/item.json'
   },
   personaList: {
-      api: 'https://duhnunes.github.io/api/persona.json'
+      api: 'https://duhnunes.github.io/ap/vocabulary/skyrimsei/persona.json'
   },
   animalList: {
-      api: 'https://duhnunes.github.io/api/animal.json'
+      api: 'https://duhnunes.github.io/api/vocabulary/skyrimse/animal.json'
   },
   foodList: {
-      api: 'https://duhnunes.github.io/api/food.json'
+      api: 'https://duhnunes.github.io/api/vocabulary/skyrimse/food.json'
   },
   diseaseList: {
-      api: 'https://duhnunes.github.io/api/disease.json'
+      api: 'https://duhnunes.github.io/api/vocabulary/skyrimse/disease.json'
   },
   uiList: {
-      api: 'https://duhnunes.github.io/api/ui.json'
+      api: 'https://duhnunes.github.io/api/vocabulary/skyrimse/ui.json'
   },
   miscList: {
-      api: 'https://duhnunes.github.io/api/misc.json'
+      api: 'https://duhnunes.github.io/api/vocabulary/skyrimse/misc.json'
   }
 };
 
