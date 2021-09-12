@@ -68,6 +68,11 @@ html, body{
 .mt-6 {
     margin-top:2.3rem!important;
 }
+.bg-form-color{
+    background-color:#262626!important;
+    border:0!important;
+    color:#fff!important;
+}
 /* Body-Card-Content */
 .card-bg-dark{
     background-color:rgb(26,26,26)!important;
