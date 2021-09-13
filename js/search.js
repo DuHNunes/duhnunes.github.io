@@ -7,7 +7,7 @@ const lists = {
     api: 'https://duhnunes.github.io/api/vocabulary/skyrimse/item.json'
   },
   personaList: {
-      api: 'https://duhnunes.github.io/api/vocabulary/skyrimsei/persona.json'
+      api: 'https://duhnunes.github.io/api/vocabulary/skyrimse/persona.json'
   },
   animalList: {
       api: 'https://duhnunes.github.io/api/vocabulary/skyrimse/animal.json'
